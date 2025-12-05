@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Layout from "../../context/Layout";
+import Layout from "../context/Layout";
+
 
 export default function EventDetail() {
     const router = useRouter();

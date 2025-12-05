@@ -1,2 +1,7 @@
 printf "node_modules/\n.next/\n.env\n.DS_Store\n" >> .gitignore
 node_modules
+
+.next/
+node_modules/
+.env
+.env.*
