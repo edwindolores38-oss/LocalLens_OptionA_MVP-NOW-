@@ -1,7 +1,11 @@
 import Link from "next/link";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../../../context/AuthContext";
 
 export default function EventCard({ event }) {
+    if (!event) {
+        return null; // or <div>No event</div> if you prefer
+    }
+
     const start = event.startDate
         ? new Date(event.startDate).toLocaleString()
         : "TBA";

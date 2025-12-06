@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Layout from "../context/Layout";
-import EventCard from "./EventCard";
+import EventCard from "../components/components/components/EventCard";
 import FiltersBar from "./FiltersBar";
 
 export default function Home() {
